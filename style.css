@@ -1,0 +1,128 @@
+/*Fonts & Color*/
+body {
+	background-color: rgb(200, 200, 200);
+	font-family: andale mono;
+	line-height: 20px;
+	text-align: center;
+}
+
+.btn-blue {
+background-color:rgb(200, 50, 50);
+color: floralwhite;
+padding: 6px 20px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color:rgb(200, 50, 10);
+color: floralwhite;
+
+}
+
+h1 {
+	color: rgb(50, 50, 50);
+	font-family: impact;
+	text-align: center;
+	letter-spacing: 0.25em;
+}
+
+a{
+	text-decoration: none;
+}
+h2 {
+	font-family: impact; 
+	letter-spacing: 0.15em;
+	color: rgb(50, 50, 50);
+}
+
+a {
+	text-decoration: none;
+	color: #FFDDCC;
+}
+
+a:hover {
+	color: rgb(255, 0, 127);
+}
+
+.profile {
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+}
+
+
+#intro {
+background-color: rgb(50, 200, 230);
+
+}
+
+#intro p {
+margin-bottom: 20px;
+
+}
+#section2 {
+background-color: rgb(150, 150, 150);
+
+}
+
+#section3 {
+background-color: rgb(230, 200, 180);
+
+}
+
+#section5 {
+background-color: rgb(10, 200, 200);
+
+}
+.font-styles {
+	margin-bottom: 5px;
+	justify-content: center;
+	border-radius: 1px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	margin: 70px;
+	border: 2px solid;
+	padding: 12px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: #FFDDCC;
+}
+
+.list-inline i:hover {
+	color: rgb(100, 50, 100);
+}
+
+#section4 {
+  text-align: center;
+
+}
+.list-inline {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.list-inline li {
+    display: inline-block; 
+    margin-right: 20px; 
+    vertical-align: top; 
+}
+
+.gallery-image {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.gallery-image:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
